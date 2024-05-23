@@ -10,10 +10,8 @@ The project consists of two main parts:
 
 ## Project Structure
 
-- **Data/**: Directory containing the dataset files.
-- **Notebooks/**: Jupyter notebooks for data exploration, clustering implementation, and visualization.
-- **Scripts/**: Python scripts for data preprocessing, clustering, and evaluation.
-- **Results/**: Directory for storing output results, including cluster assignments and visualizations.
+- **Data**: Directory containing the dataset files.
+- **Notebooks**: Jupyter notebooks for data exploration, clustering implementation, and visualization.
 - **README.md**: Project documentation.
 
 ## Getting Started
