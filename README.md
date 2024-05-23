@@ -33,9 +33,9 @@ pip install numpy pandas matplotlib seaborn scikit-learn scipy
 ```
 
 ## Dataset
-- Synthetic Data: Generated using the make_blobs function from sklearn.
-- Image Data: An RGB image used for clustering RGB values.
-- Mall Customer Data: The Mall Customer dataset (Mall_Customers.csv).
+- Synthetic Data: Generated using the make_blobs function from sklearn with 300 instances, 4 centers, and a standard deviation of 0.6.
+- Image Data: An RGB image used for clustering RGB values into K clusters to demonstrate image compression.
+- Mall Customer Data: The Mall Customer dataset (Mall_Customers.csv) for clustering customer data.
 
 ## Running the Project
 
@@ -50,23 +50,10 @@ Navigate to the notebooks directory and open the Jupyter notebook AML_mini_proje
 
 ## Project Details
 ### K-Means Clustering
-Introduction
-K-means is a widely used unsupervised learning algorithm for clustering. It classifies a dataset into a predefined number of clusters by defining cluster centers and assigning data points to the nearest cluster.
-
-## Dataset
-### Synthetic Data: 
-Generated using the make_blobs function from sklearn with 300 instances, 4 centers, and a standard deviation of 0.6.
-### Image Data: 
-An RGB image used for clustering RGB values into K clusters to demonstrate image compression.
-### Mall Customer dataset (Mall_Customers.csv): 
-For clustering customer data.
-
-## Project Includes
-Comparison of results from different seeds and initializations including standard k-means and k++
+K-means is a widely used unsupervised learning algorithm for clustering. It partitions a dataset into a predefined number of clusters by defining cluster centers and assigning each data point to the nearest center. This project includes a comparison of results using different seeds and initializations, including both the standard k-means algorithm and the k-means++ initialization method.
 
 ## Hierarchical Clustering
 Hierarchical clustering creates clusters in a predetermined hierarchical order. It is useful for organizing data in nested clusters.
-
 
 ## Requirements
 Implement a hierarchical clustering model using Ward distance.
