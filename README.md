@@ -51,14 +51,14 @@ cd aml-mini-project
 Navigate to the notebooks directory and open the Jupyter notebook AML_mini_project_4.ipynb to explore the data, implement the clustering algorithms, and visualize the results.
 
 ## Project Details
-# K-Means Clustering
+### K-Means Clustering
 Introduction
 K-means is a widely used unsupervised learning algorithm for clustering. It classifies a dataset into a predefined number of clusters by defining cluster centers and assigning data points to the nearest cluster.
 
 ## Dataset
-# Synthetic Data: Generated using the make_blobs function from sklearn with 300 instances, 4 centers, and a standard deviation of 0.6.
-# Image Data: An RGB image used for clustering RGB values into K clusters to demonstrate image compression.
-# Mall Customer dataset (Mall_Customers.csv) for clustering customer data.
+### Synthetic Data: Generated using the make_blobs function from sklearn with 300 instances, 4 centers, and a standard deviation of 0.6.
+### Image Data: An RGB image used for clustering RGB values into K clusters to demonstrate image compression.
+### Mall Customer dataset (Mall_Customers.csv) for clustering customer data.
 
 ## Project Includes
 Comparison of results from different seeds and initializations including standard k-means and k++
